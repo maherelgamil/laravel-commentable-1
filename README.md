@@ -2,7 +2,6 @@
 
 # Laravel-Commentable
 
-[![StyleCI](https://styleci.io/repos/45703619/shield)](https://styleci.io/repos/45703619)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
 [![Total Downloads](https://img.shields.io/packagist/dt/slynova/laravel-commentable.svg?style=flat-square)](https://packagist.org/packages/slynova/laravel-commentable)
 
