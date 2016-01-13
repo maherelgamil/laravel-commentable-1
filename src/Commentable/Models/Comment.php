@@ -69,10 +69,11 @@ class Comment extends Node
     /**
      * Get the user that creates the comment.
      *
+     * @param  $configKey  string
      * @return Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    public function user()
+    public function user($configKey = 'auth.providers.users.model')
     {
-        return $this->belongsTo(config()->get('auth.model'));
+        return $this->belongsTo(config()->get($configKey));
     }
 }
