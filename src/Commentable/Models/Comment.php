@@ -42,7 +42,7 @@ class Comment extends Node
      */
     public function hasChildren()
     {
-        return $this->children()->count() > 0;
+        return (($this->rgt - $this->lft - 1) / 2) > 0;
     }
 
     /**
